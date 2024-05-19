@@ -106,7 +106,7 @@ const Museum = () => {
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
         console.log(charBattle);
-      } else if (character === "/src/gambar/cowok.png"){
+      } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoRain);
         console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
@@ -123,7 +123,7 @@ const Museum = () => {
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
         console.log(charBattle);
-      } else if (character === "/src/gambar/cowok.png"){
+      } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoRain);
         console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
@@ -140,7 +140,7 @@ const Museum = () => {
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweSunny1);
         console.log(charBattle);
-      } else if (character === "/src/gambar/cowok.png"){
+      } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoSunny);
         console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
@@ -158,7 +158,7 @@ const Museum = () => {
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweCloud1);
         console.log(charBattle);
-      } else if (character === "/src/gambar/cowok.png"){
+      } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoCloud);
         console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
@@ -176,7 +176,7 @@ const Museum = () => {
         } else if (character === "/src/gambar/cewek1.png"){
           setCharBattle(charCeweCloud1);
           console.log(charBattle);
-        } else if (character === "/src/gambar/cowok.png"){
+        } else if (character === "/assets/cowok-ozOvFWn3.png"){
           setCharBattle(charCowoCloud);
           console.log(charBattle);
         } else if (character === "/src/gambar/cowok1.png"){
