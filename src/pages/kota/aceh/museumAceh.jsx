@@ -96,89 +96,92 @@ const Museum = () => {
   };
 
   const handleArena = () => {
+    console.log(character);
     if (weatherId > 199 && weatherId < 233) {
       setArena(arenaThunder);
       setMusuhBattle(musuhRain);
-      if (character === "/assets/cewek-DQcVcK8b.png"){
+      if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweRain);
-        
-      } else if (character === "/assets/cewek1-DzSpaQhV.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
-        
+        console.log(charBattle);
       } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoRain);
-        
-      } else if (character === "/assets/cowok1-Df-mUJut.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoRain1);
-        
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId > 299 && weatherId < 623) {
       setArena(arenaRainy);
       setMusuhBattle(musuhRain);
-      if (character === "/assets/cewek-DQcVcK8b.png"){
+      if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweRain);
-        
-      } else if (character === "/assets/cewek1-DzSpaQhV.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
-        
+        console.log(charBattle);
       } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoRain);
-        
-      } else if (character === "/assets/cowok1-Df-mUJut.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoRain1);
-        
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId === 800) {
       setArena(arenaSunny);
       setMusuhBattle(musuhSunny);
-      if (character === "/assets/cewek-DQcVcK8b.png"){
+      if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweSunny);
-        
-      } else if (character === "/assets/cewek1-DzSpaQhV.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweSunny1);
-        
+        console.log(charBattle);
       } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoSunny);
-        
-      } else if (character === "/assets/cowok1-Df-mUJut.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoSunny1);
-        
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId > 700 && weatherId < 805) {
       if (weatherId < 800) {
         setArena(arenaCloud);
         setMusuhBattle(musuhCloud);
-        if (character === "/assets/cewek-DQcVcK8b.png"){
+        if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweCloud);
-        
-      } else if (character === "/assets/cewek1-DzSpaQhV.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweCloud1);
-        
+        console.log(charBattle);
       } else if (character === "/assets/cowok-ozOvFWn3.png"){
         setCharBattle(charCowoCloud);
-      } else if (character === "/assets/cowok1-Df-mUJut.png"){
+        console.log(charBattle);
+      } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoCloud1);
+        console.log(charBattle);
       } else alert("error");
 
       
       } else if (weatherId > 800 && weatherId < 805) {
         setArena(arenaCloud);
         setMusuhBattle(musuhCloud);
-        if (character === "/assets/cewek-DQcVcK8b.png"){
+        if (character === "/src/gambar/cewek.png"){
           setCharBattle(charCeweCloud);
-          
-        } else if (character === "/assets/cewek1-DzSpaQhV.png"){
+          console.log(charBattle);
+        } else if (character === "/src/gambar/cewek1.png"){
           setCharBattle(charCeweCloud1);
-          
+          console.log(charBattle);
         } else if (character === "/assets/cowok-ozOvFWn3.png"){
           setCharBattle(charCowoCloud);
-          
-        } else if (character === "/assets/cowok1-Df-mUJut.png"){
+          console.log(charBattle);
+        } else if (character === "/src/gambar/cowok1.png"){
           setCharBattle(charCowoCloud1);
-          
+          console.log(charBattle);
         } else alert("error");
       }
     } else {
