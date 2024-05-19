@@ -96,17 +96,22 @@ const Museum = () => {
   };
 
   const handleArena = () => {
+    console.log(character);
     if (weatherId > 199 && weatherId < 233) {
       setArena(arenaThunder);
       setMusuhBattle(musuhRain);
       if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweRain);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok.png"){
         setCharBattle(charCowoRain);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoRain1);
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId > 299 && weatherId < 623) {
@@ -114,12 +119,16 @@ const Museum = () => {
       setMusuhBattle(musuhRain);
       if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweRain);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweRain1);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok.png"){
         setCharBattle(charCowoRain);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoRain1);
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId === 800) {
@@ -127,12 +136,16 @@ const Museum = () => {
       setMusuhBattle(musuhSunny);
       if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweSunny);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweSunny1);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok.png"){
         setCharBattle(charCowoSunny);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoSunny1);
+        console.log(charBattle);
       } else alert("error");
 
     } else if (weatherId > 700 && weatherId < 805) {
@@ -141,12 +154,16 @@ const Museum = () => {
         setMusuhBattle(musuhCloud);
         if (character === "/src/gambar/cewek.png"){
         setCharBattle(charCeweCloud);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cewek1.png"){
         setCharBattle(charCeweCloud1);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok.png"){
         setCharBattle(charCowoCloud);
+        console.log(charBattle);
       } else if (character === "/src/gambar/cowok1.png"){
         setCharBattle(charCowoCloud1);
+        console.log(charBattle);
       } else alert("error");
 
       
@@ -155,12 +172,16 @@ const Museum = () => {
         setMusuhBattle(musuhCloud);
         if (character === "/src/gambar/cewek.png"){
           setCharBattle(charCeweCloud);
+          console.log(charBattle);
         } else if (character === "/src/gambar/cewek1.png"){
           setCharBattle(charCeweCloud1);
+          console.log(charBattle);
         } else if (character === "/src/gambar/cowok.png"){
           setCharBattle(charCowoCloud);
+          console.log(charBattle);
         } else if (character === "/src/gambar/cowok1.png"){
           setCharBattle(charCowoCloud1);
+          console.log(charBattle);
         } else alert("error");
       }
     } else {
