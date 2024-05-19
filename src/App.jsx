@@ -32,7 +32,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/jelajahisoematra/" element={<Login />} />
         <Route path="/character" element={<Character />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/mapaceh" element={<MapAceh />} />
