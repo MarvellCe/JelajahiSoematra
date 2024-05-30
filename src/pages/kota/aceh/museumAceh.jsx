@@ -99,6 +99,7 @@ const Museum = () => {
     if (weatherId > 199 && weatherId < 233) {
       setArena(arenaThunder);
       setMusuhBattle(musuhRain);
+      console.log(character);
       if (character === "/assets/cewek-DQcVcK8b.png"){
         setCharBattle(charCeweRain);
         
