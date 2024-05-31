@@ -66,7 +66,7 @@ const MapPalembang = () => {
       displayModalButton("Darah anda bertambah menjadi 180!");
     }, 1000);
     setTimeout(() => {
-      displayModalButton("Perjalanan ke Bangka Dimulai!!!");
+      displayModalButton("Perjalanan ke Palembang Dimulai!!!");
     }, 2000);
     setTimeout(() => {
       navigate("/palembang", { state: { name: name, character: character, health: health, money: totalMoney, weather: weather, weatherId: weatherId, makananPalembang1: makananPalembang1, makananPalembang2:makananPalembang2, makananPalembang3:makananPalembang3} });
