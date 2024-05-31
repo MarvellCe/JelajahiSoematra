@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Kami membuat website yaitu game yang mengambil tema kota-kota besar di Sumatra, disini website kami sayangnya belum bisa responsive, dan untuk mendapatkan pengalaman terbaik kita harus menggunakan resolusi 1366x768px, untuk API disini kami menggunakan API Cuaca, yang akan digunakan untuk : 
+1. Menampilkan cuaca di kota tersebut
+2. Mengubah arena battle sesuai dengan cuaca di kota tersebut
+3. Mengubah tampilan karakter sesuai dengan cuaca di kota tersebut
+4. Mengubah tampilan karakter musuh sesuai dengan cuaca di kota tersebut
+5. Mempengaruhi statistic dari penambahan darah / damage dari makanan ketika digunakan
